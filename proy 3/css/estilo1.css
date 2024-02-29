@@ -1,0 +1,50 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.general {
+    width: 400px;
+    height: 450px;
+    background-color:rgb(47, 175, 255);
+    border-radius: 50%;
+    position: relative;
+}
+
+.caja1 {
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja2 {
+    width: 80px;
+    height: 100px;
+    background-color:rgb(17, 0, 255);
+    border-radius: 50%;
+}
+
+.caja3 {
+    width: 45px;
+    height: 30px;
+    background-color:rgb(209, 65, 225);
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.caja4 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(153, 0, 255);
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 60%;
+}
